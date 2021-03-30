@@ -37,6 +37,7 @@ namespace VmplayerUtilityGui
             if (selected)
             {
                 LauncherMakerForm launcherMakerForm = new LauncherMakerForm(AppName, selectedVm);
+                launcherMakerForm.Icon = this.Icon;
                 launcherMakerForm.ShowDialog(this);
                 launcherMakerForm.Dispose();
             }

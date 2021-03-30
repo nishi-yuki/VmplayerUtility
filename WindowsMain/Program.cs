@@ -58,7 +58,9 @@ namespace WindowsMain
             // GUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SelectVmForm(AppName, wmpUtil));
+            SelectVmForm selectVmForm = new SelectVmForm(AppName, wmpUtil);
+            selectVmForm.Icon = Properties.Resources.VmplayerUtilityIcon;
+            Application.Run(selectVmForm);
         }
     }
 }
