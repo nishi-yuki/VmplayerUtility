@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using VmplayerUtilityCore;
@@ -59,7 +61,7 @@ namespace WindowsMain
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             SelectVmForm selectVmForm = new SelectVmForm(AppName, wmpUtil);
-            selectVmForm.Icon = Properties.Resources.VmplayerUtilityIcon;
+            selectVmForm.Icon = Icon.ExtractAssociatedIcon(Process.GetCurrentProcess().MainModule.FileName);
             Application.Run(selectVmForm);
         }
     }

@@ -59,15 +59,5 @@ namespace WindowsMain.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static System.Drawing.Icon VmplayerUtilityIcon {
-            get {
-                object obj = ResourceManager.GetObject("VmplayerUtilityIcon", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
     }
 }
