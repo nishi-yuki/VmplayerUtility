@@ -56,19 +56,18 @@ namespace VmplayerUtilityGui
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.mainPanel.Location = new System.Drawing.Point(0, 0);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Padding = new System.Windows.Forms.Padding(3);
-            this.mainPanel.Size = new System.Drawing.Size(222, 280);
+            this.mainPanel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mainPanel.Size = new System.Drawing.Size(264, 391);
             this.mainPanel.TabIndex = 0;
             // 
             // header
             // 
             this.header.AutoSize = true;
-            this.header.Location = new System.Drawing.Point(6, 6);
-            this.header.Margin = new System.Windows.Forms.Padding(3);
+            this.header.Location = new System.Drawing.Point(6, 8);
+            this.header.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.header.Name = "header";
-            this.header.Size = new System.Drawing.Size(33, 12);
+            this.header.Size = new System.Drawing.Size(39, 18);
             this.header.TabIndex = 7;
             this.header.Text = "TEXT";
             // 
@@ -76,11 +75,9 @@ namespace VmplayerUtilityGui
             // 
             this.optionGroup.Controls.Add(this.fullscreenCheckBox);
             this.optionGroup.Controls.Add(this.unityCheckBox);
-            this.optionGroup.Location = new System.Drawing.Point(6, 23);
-            this.optionGroup.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.optionGroup.Location = new System.Drawing.Point(6, 33);
             this.optionGroup.Name = "optionGroup";
-            this.optionGroup.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.optionGroup.Size = new System.Drawing.Size(206, 61);
+            this.optionGroup.Size = new System.Drawing.Size(240, 92);
             this.optionGroup.TabIndex = 15;
             this.optionGroup.TabStop = false;
             this.optionGroup.Text = "起動オプション";
@@ -88,10 +85,9 @@ namespace VmplayerUtilityGui
             // fullscreenCheckBox
             // 
             this.fullscreenCheckBox.AutoSize = true;
-            this.fullscreenCheckBox.Location = new System.Drawing.Point(6, 21);
-            this.fullscreenCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fullscreenCheckBox.Location = new System.Drawing.Point(7, 32);
             this.fullscreenCheckBox.Name = "fullscreenCheckBox";
-            this.fullscreenCheckBox.Size = new System.Drawing.Size(85, 16);
+            this.fullscreenCheckBox.Size = new System.Drawing.Size(111, 22);
             this.fullscreenCheckBox.TabIndex = 1;
             this.fullscreenCheckBox.Text = "フルスクリーン";
             this.fullscreenCheckBox.UseVisualStyleBackColor = true;
@@ -99,10 +95,9 @@ namespace VmplayerUtilityGui
             // unityCheckBox
             // 
             this.unityCheckBox.AutoSize = true;
-            this.unityCheckBox.Location = new System.Drawing.Point(7, 41);
-            this.unityCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.unityCheckBox.Location = new System.Drawing.Point(8, 62);
             this.unityCheckBox.Name = "unityCheckBox";
-            this.unityCheckBox.Size = new System.Drawing.Size(97, 16);
+            this.unityCheckBox.Size = new System.Drawing.Size(123, 22);
             this.unityCheckBox.TabIndex = 2;
             this.unityCheckBox.Text = "ユニティーモード";
             this.unityCheckBox.UseVisualStyleBackColor = true;
@@ -114,11 +109,9 @@ namespace VmplayerUtilityGui
             this.saveGroup.Controls.Add(this.otherRadioButton);
             this.saveGroup.Controls.Add(this.selectFolder);
             this.saveGroup.Controls.Add(this.dirPathTextBox);
-            this.saveGroup.Location = new System.Drawing.Point(6, 88);
-            this.saveGroup.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.saveGroup.Location = new System.Drawing.Point(6, 131);
             this.saveGroup.Name = "saveGroup";
-            this.saveGroup.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.saveGroup.Size = new System.Drawing.Size(206, 126);
+            this.saveGroup.Size = new System.Drawing.Size(240, 189);
             this.saveGroup.TabIndex = 14;
             this.saveGroup.TabStop = false;
             this.saveGroup.Text = "保存先フォルダ";
@@ -126,10 +119,9 @@ namespace VmplayerUtilityGui
             // desktopRadioButton
             // 
             this.desktopRadioButton.AutoSize = true;
-            this.desktopRadioButton.Location = new System.Drawing.Point(5, 18);
-            this.desktopRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.desktopRadioButton.Location = new System.Drawing.Point(6, 27);
             this.desktopRadioButton.Name = "desktopRadioButton";
-            this.desktopRadioButton.Size = new System.Drawing.Size(74, 16);
+            this.desktopRadioButton.Size = new System.Drawing.Size(98, 22);
             this.desktopRadioButton.TabIndex = 4;
             this.desktopRadioButton.TabStop = true;
             this.desktopRadioButton.Text = "デスクトップ";
@@ -138,10 +130,9 @@ namespace VmplayerUtilityGui
             // startMenuRadioButton
             // 
             this.startMenuRadioButton.AutoSize = true;
-            this.startMenuRadioButton.Location = new System.Drawing.Point(4, 38);
-            this.startMenuRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.startMenuRadioButton.Location = new System.Drawing.Point(5, 57);
             this.startMenuRadioButton.Name = "startMenuRadioButton";
-            this.startMenuRadioButton.Size = new System.Drawing.Size(93, 16);
+            this.startMenuRadioButton.Size = new System.Drawing.Size(122, 22);
             this.startMenuRadioButton.TabIndex = 5;
             this.startMenuRadioButton.TabStop = true;
             this.startMenuRadioButton.Text = "スタートメニュー";
@@ -150,10 +141,9 @@ namespace VmplayerUtilityGui
             // otherRadioButton
             // 
             this.otherRadioButton.AutoSize = true;
-            this.otherRadioButton.Location = new System.Drawing.Point(5, 58);
-            this.otherRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.otherRadioButton.Location = new System.Drawing.Point(6, 87);
             this.otherRadioButton.Name = "otherRadioButton";
-            this.otherRadioButton.Size = new System.Drawing.Size(54, 16);
+            this.otherRadioButton.Size = new System.Drawing.Size(62, 22);
             this.otherRadioButton.TabIndex = 6;
             this.otherRadioButton.TabStop = true;
             this.otherRadioButton.Text = "その他";
@@ -164,10 +154,9 @@ namespace VmplayerUtilityGui
             // 
             this.selectFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.selectFolder.AutoSize = true;
-            this.selectFolder.Location = new System.Drawing.Point(126, 101);
-            this.selectFolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.selectFolder.Location = new System.Drawing.Point(143, 152);
             this.selectFolder.Name = "selectFolder";
-            this.selectFolder.Size = new System.Drawing.Size(74, 22);
+            this.selectFolder.Size = new System.Drawing.Size(90, 33);
             this.selectFolder.TabIndex = 13;
             this.selectFolder.Text = "フォルダ選択";
             this.selectFolder.UseVisualStyleBackColor = true;
@@ -175,19 +164,17 @@ namespace VmplayerUtilityGui
             // 
             // dirPathTextBox
             // 
-            this.dirPathTextBox.Location = new System.Drawing.Point(4, 78);
-            this.dirPathTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dirPathTextBox.Location = new System.Drawing.Point(5, 117);
             this.dirPathTextBox.Name = "dirPathTextBox";
-            this.dirPathTextBox.Size = new System.Drawing.Size(197, 19);
+            this.dirPathTextBox.Size = new System.Drawing.Size(229, 25);
             this.dirPathTextBox.TabIndex = 12;
             // 
             // makeButton
             // 
             this.makeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.makeButton.Location = new System.Drawing.Point(148, 218);
-            this.makeButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.makeButton.Location = new System.Drawing.Point(171, 326);
             this.makeButton.Name = "makeButton";
-            this.makeButton.Size = new System.Drawing.Size(64, 18);
+            this.makeButton.Size = new System.Drawing.Size(75, 27);
             this.makeButton.TabIndex = 0;
             this.makeButton.Text = "作成";
             this.makeButton.UseVisualStyleBackColor = true;
@@ -201,11 +188,11 @@ namespace VmplayerUtilityGui
             // 
             // LauncherMakerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(222, 280);
+            this.ClientSize = new System.Drawing.Size(264, 391);
             this.Controls.Add(this.mainPanel);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Name = "LauncherMakerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Shortcut Maker";

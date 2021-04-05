@@ -29,7 +29,6 @@ namespace VmplayerUtilityGui
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectVmForm));
             this.makeShortcut = new System.Windows.Forms.Button();
             this.status = new System.Windows.Forms.Label();
             this.vmList = new System.Windows.Forms.ListView();
@@ -41,10 +40,9 @@ namespace VmplayerUtilityGui
             // makeShortcut
             // 
             this.makeShortcut.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.makeShortcut.Location = new System.Drawing.Point(391, 273);
-            this.makeShortcut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.makeShortcut.Location = new System.Drawing.Point(446, 368);
             this.makeShortcut.Name = "makeShortcut";
-            this.makeShortcut.Size = new System.Drawing.Size(99, 22);
+            this.makeShortcut.Size = new System.Drawing.Size(125, 33);
             this.makeShortcut.TabIndex = 2;
             this.makeShortcut.Text = "ショートカット作成";
             this.makeShortcut.UseVisualStyleBackColor = true;
@@ -54,9 +52,9 @@ namespace VmplayerUtilityGui
             // 
             this.status.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.status.AutoSize = true;
-            this.status.Location = new System.Drawing.Point(10, 273);
+            this.status.Location = new System.Drawing.Point(12, 368);
             this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(41, 12);
+            this.status.Size = new System.Drawing.Size(44, 18);
             this.status.TabIndex = 3;
             this.status.Text = "未選択";
             // 
@@ -73,11 +71,10 @@ namespace VmplayerUtilityGui
             this.vmList.FullRowSelect = true;
             this.vmList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.vmList.HideSelection = false;
-            this.vmList.Location = new System.Drawing.Point(10, 10);
-            this.vmList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.vmList.Location = new System.Drawing.Point(12, 15);
             this.vmList.MultiSelect = false;
             this.vmList.Name = "vmList";
-            this.vmList.Size = new System.Drawing.Size(480, 256);
+            this.vmList.Size = new System.Drawing.Size(560, 341);
             this.vmList.TabIndex = 4;
             this.vmList.UseCompatibleStateImageBehavior = false;
             this.vmList.View = System.Windows.Forms.View.Details;
@@ -100,13 +97,13 @@ namespace VmplayerUtilityGui
             // 
             // SelectVmForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(501, 302);
+            this.ClientSize = new System.Drawing.Size(584, 411);
             this.Controls.Add(this.vmList);
             this.Controls.Add(this.status);
             this.Controls.Add(this.makeShortcut);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Name = "SelectVmForm";
             this.Text = "Vmplayer Utility";
             this.ResumeLayout(false);
