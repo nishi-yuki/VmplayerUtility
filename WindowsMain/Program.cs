@@ -11,7 +11,7 @@ namespace WindowsMain
 {
     static class Program
     {
-        public const string AppName = @"VM Player Util";
+        public const string AppName = @"VmplayerUtility";
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
