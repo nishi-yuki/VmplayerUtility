@@ -544,7 +544,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:VmplayerUtility"
         "ProductCode" = "8:{309DA152-131E-47F6-B215-74E97AAA589C}"
-        "PackageCode" = "8:{E15C1267-4852-4323-A22C-2958432D2FA7}"
+        "PackageCode" = "8:{7827C120-A498-4399-B2AA-0FC59785C44E}"
         "UpgradeCode" = "8:{F7F7D531-D4D9-447B-8B45-F9C4A580B55D}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
